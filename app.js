@@ -15,7 +15,7 @@ let app = express();
 /**
  * mongoose init
  */
-mongoose.connect('mongodb://127.0.0.1/blog');
+// mongoose.connect('mongodb://127.0.0.1/blog');
 
 // view engine setup
 app.set('view engine', 'html');
