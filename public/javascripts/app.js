@@ -1,6 +1,11 @@
 "use strict";
-const app = angular.module('spa', [
+let app = angular.module('spa', [
   'ui.router',
+  'ngAnimate',
+  'ngMaterial',
+  'ngMdIcons',
   'appRoutes',
-  'baseCtrl'
+  'baseCtrl',
+  'sideNavCtrl',
+  'categoryCtrl',
 ]);
